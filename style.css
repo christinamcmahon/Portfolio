@@ -1,0 +1,43 @@
+.parallax { 
+    background-image: url("https://source.unsplash.com/Vai8MXyfMcQ/1600x900");
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  #profilepic {
+    border-radius: 100%;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  
+  td {
+    padding: 20px;
+  }
+  
+  ul {
+    display: flex;
+    position: absolute;
+  }
+  
+  ul li{
+    list-style: none;
+    margin: 10px;
+  }
+  ul li a {
+    color: #c49da2;
+  }
+  
+  .fa:hover {
+    color: #7a525c;
+  }
